@@ -83,3 +83,39 @@ nav a i {
     margin-right: 30px;
     background: #ddd;
 }
+
+.cards h2, .lista-cursos h2, #tabela h2, #noticias h2, #depoimentos h2, .contato h2 {
+    color: #1a5c1a;
+    border-left: 5px solid #b91c1c;
+    padding-left: 15px;
+    margin: 40px 0 20px 0;
+}
+
+.cards h2 i, .lista-cursos h2 i, #tabela h2 i, #noticias h2 i, #depoimentos h2 i, .contato h2 i {
+    margin-right: 10px;
+    color: #b91c1c;
+}
+
+.lista-cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    flex: 1;
+    background: white;
+    border: 1px solid #ddd;
+    border-left: 5px solid #1a5c1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #e0e0e0;
+}
+
+.card h3 {
+    color: #b91c1c;
+    margin-top: 0;
+}
+
+.card h3 i {
+    margin-right: 8px;
+}
