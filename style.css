@@ -13,3 +13,42 @@ body {
     margin: auto;
     max-width: 95%;
 }
+
+header {
+    background: #1a5c1a;
+    color: white;
+    padding: 15px 0;
+    border-bottom: 4px solid #b91c1c;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.logo h1 i {
+    margin-right: 10px;
+}
+
+.subtitle {
+    margin: 5px 0 0 0;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a i {
+    margin-right: 5px;
+}
