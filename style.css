@@ -52,3 +52,34 @@ nav a {
 nav a i {
     margin-right: 5px;
 }
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+    background: white;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.banner-texto {
+    flex: 2;
+    padding-left: 30px;
+}
+
+.banner h2 {
+    color: #b91c1c;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.banner img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #1a5c1a;
+    margin-right: 30px;
+    background: #ddd;
+}
