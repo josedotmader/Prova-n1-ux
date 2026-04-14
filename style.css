@@ -212,9 +212,6 @@ tr:nth-child(even) {
     margin-right: 5px;
 }
 
-/* Conteúdo CSS anterior */
-
-/* Depoimentos */
 .depoimentos-grid {
     display: flex;
     gap: 25px;
