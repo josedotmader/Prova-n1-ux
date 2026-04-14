@@ -211,3 +211,38 @@ tr:nth-child(even) {
     font-size: 12px;
     margin-right: 5px;
 }
+
+/* Conteúdo CSS anterior */
+
+/* Depoimentos */
+.depoimentos-grid {
+    display: flex;
+    gap: 25px;
+}
+
+.depoimento {
+    flex: 1;
+    background: #1a5c1a;
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.depoimento i {
+    font-size: 28px;
+    opacity: 0.7;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.depoimento-autor {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.depoimento-autor i {
+    font-size: 14px;
+    display: inline;
+    margin-right: 5px;
+}
