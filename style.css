@@ -246,3 +246,33 @@ tr:nth-child(even) {
     display: inline;
     margin-right: 5px;
 }
+
+.contato {
+    margin: 40px 0;
+}
+
+.contato-container {
+    display: flex;
+    gap: 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #e0e0e0;
+}
+
+.contato-info {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contato-info p {
+    margin: 15px 0;
+}
+
+.contato-info i {
+    width: 25px;
+    color: #1a5c1a;
+    margin-right: 10px;
+}
