@@ -174,3 +174,40 @@ td i {
 tr:nth-child(even) {
     background: #f9f9f9;
 }
+
+
+.noticias-grid {
+    display: flex;
+    gap: 25px;
+}
+
+.noticia {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #e0e0e0;
+}
+
+.noticia i {
+    font-size: 32px;
+    color: #1a5c1a;
+    margin-bottom: 10px;
+}
+
+.noticia h3 {
+    color: #b91c1c;
+    margin-top: 10px;
+}
+
+.noticia small {
+    color: #666;
+    display: block;
+    margin-top: 10px;
+}
+
+.noticia small i {
+    font-size: 12px;
+    margin-right: 5px;
+}
