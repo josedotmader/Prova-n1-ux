@@ -141,3 +141,36 @@ nav a i {
 .curso-item i {
     margin-right: 8px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin: 20px 0;
+    box-shadow: 2px 2px 5px #e0e0e0;
+}
+
+th {
+    background: #b91c1c;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+th i {
+    margin-right: 8px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+td i {
+    margin-right: 8px;
+    color: #1a5c1a;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
